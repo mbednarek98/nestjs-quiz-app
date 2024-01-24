@@ -89,7 +89,7 @@ For local development and debugging:
 $ npm run start       # Runs the app in the development mode.
 ```
 ### Watch Mode
-Useful for real-time feedback on code changes:
+For real-time feedback on code changes:
 ```bash
 $ npm run start:dev   # Restarts the server automatically upon file changes.
 ```
