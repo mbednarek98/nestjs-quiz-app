@@ -1,10 +1,5 @@
 import {Field, InputType, Int, ObjectType} from '@nestjs/graphql';
-import {
-    IsBoolean,
-    IsNumber,
-    IsString,
-    Length,
-} from 'class-validator';
+import {IsBoolean, IsNumber, IsString, Length} from 'class-validator';
 import {CoreEntity} from '../../common/entites/core.entity';
 import {Column, Entity, ManyToOne} from 'typeorm';
 import {Question} from '../../question/entities/question.entity';

@@ -4,7 +4,7 @@ import {CoreEntity} from '../../common/entites/core.entity';
 import {Column, Entity, ManyToOne, OneToMany, RelationId} from 'typeorm';
 import {Quiz} from '../../quiz/entites/quiz.entity';
 import {Answer} from '../../answer/entities/answer.entity';
-import {QuestionType} from '../question.enum';
+import {QuestionType} from '../gateways';
 
 @InputType('QuestionInputType', {isAbstract: true})
 @ObjectType()

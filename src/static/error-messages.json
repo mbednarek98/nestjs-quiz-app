@@ -1,0 +1,21 @@
+{
+    "uniqueConstraintViolation": "Entity with {column} '{value}' already exists.",
+    "genericUniqueConstraintViolation": "A unique constraint violation occurred.",
+    "genericCreatingAnswerError": "Error when creating answers.",
+    "genericUnknownTypeError" : "Unknown question type.",
+    "genericCreatingQuestionError" : "Error when creating questions.",
+    "internalServerError" : "Internal server error.",
+    "quizMaxQuestionsLimit": "Quiz should not have more than {max_value} questions.",
+    "quizMinQuestionsRequired": "Quiz must include at least {min_value} question.",
+    "quizNotFound": "Quiz not found",
+    "quizNotFoundWithTitle" : "Quiz with title '{title}' not found", 
+    "unknownQuestionType": "Unknown question type.",
+    "questionMaxAnswersLimit": "Each question should not have more than {max_value} answers.",
+    "questionMinAnswersRequired": "Each question must include at least {min_value} answer.",
+    "singleCorrectAnswerQuestionRules": "Single Correct Answer questions must have {correct_value} correct answer and at least {min_value} answers overall.",
+    "multipleCorrectAnswersQuestionRules": "Multiple Correct Answers questions must have at least {correct_value} correct answers and at least {min_value} answers overall.",
+    "sortingQuestionMinAnswers": "Sorting questions must have at least {min_value} answers.",
+    "sortingQuestionDistinctOrderNumbers": "Sorting questions must have distinct order numbers.",
+    "plainTextQuestionRules": "Plain Text questions must have exactly {value} answer and it needs to be correct."
+    
+}
